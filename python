@@ -1,0 +1,21 @@
+import random9
+longitud = int(input("Introduce la longitud de la contraseña:"))
+print(f"La longitud de la contraseña  introducida es: ¨{longitud}")
+#Variables
+character = "abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789!@#~$%*()"
+contraseña = ""
+for i in range(longitud):
+    contraseña += random.choice(character)
+print(f"La contraseña generada es: ¨{contraseña}")
+
+
+
+
+
+
+
+
+
+
+
+2
